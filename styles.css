@@ -114,6 +114,7 @@ body{
     border-radius: 100px;
     text-align: left;
     width: 100px;
+    background-color: white;
 }
 
 .product-quantity{
@@ -125,7 +126,7 @@ body{
 .quantity-selection{
     text-align: center;
     padding: 5px 1px;
-    font-size: 1.3em;
+    font-size: 1.2em;
     border-radius: 100px;
     border: 1px solid gray;
     margin: auto;
@@ -242,7 +243,7 @@ body{
 
 /**************** MEDIA QUERY FOR MOBILE ******************/
 
-@media (max-width:900px){
+@media (max-width:1000px){
 
     .desktop{
         display:  none;
@@ -338,7 +339,7 @@ body{
     .quantity-selection{
         width: 100%;
         font-size: 1.1em;
-        padding: 4px 0;
+        padding: 3px 0;
     }
 
     .add-cart-btn .btn{
